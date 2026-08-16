@@ -17,7 +17,11 @@ When you git clone this repo you'll have `environment-cli.yaml`. Run,
 ```
 conda env create -f environment-cl.yaml
 ```
-to create a conda environment compatible with MacOS. This yaml file will install all the necessary dependency and libraries to develop llm models and use `MPS` GPU's (Apple's Silicon Chips). 
+to create a conda environment compatible with MacOS. This yaml file will install all the necessary dependency and libraries to develop llm models and use `MPS` GPU's (Apple's Silicon Chips). Then, 
+```
+pip install -r requirements.txt 
+```
+to install any remaining requirements. 
 
 ### 3. Activate Environment
 
