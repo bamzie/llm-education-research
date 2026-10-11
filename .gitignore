@@ -1,3 +1,6 @@
+# Downloaded model
+Phi-3-mini-4k-instruct-fp16.gguf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
